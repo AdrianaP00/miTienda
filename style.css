@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+
+.navbar {
+    background-color: transparent;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.textMenu {
+    display: flex;
+    justify-content: center;
+    text-anchor: middle;
+    align-items: center;
+    gap: 20px;
+}
+
+.centerColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dirColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    row-gap: 5px;
+    margin-right: 21px;
+}
+
+.subMenu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.subMenu p {
+    margin: 3px;
+}
+
+.bb{
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    background-color: gold;
+    border-radius: 8px;
+    border-radius: 8px;
+    padding: 5px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.butt {
+    flex-direction: column;
+    align-items: end;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: row;
+}
+
+.div-padre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.div-hijo {
+    text-align: center;
+    margin: 25px;
+    width: 200px;
+    height: 250px;
+    background-color: grey;
+}
+
+input, ul.submenu {
+    display: none;
+  }
+  
+  /*position the label*/
+  label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+  
+  /*show the submenu when input is checked*/
+  input:checked~ul.submenu {
+    display: block;
+  }
+
+a {
+    text-decoration: none;
+}
+
+.columnMenu{
+    flex-direction: column;
+}
+
+.search-bar{
+    display: block;
+}
+.cerca{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.lupa{
+    width: 20px;
+    height: 20px;
+}
