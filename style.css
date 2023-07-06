@@ -40,7 +40,6 @@
     flex-direction: column;
     align-items: end;
     row-gap: 5px;
-    margin-right: 21px;
 }
 
 .subMenu {
@@ -51,9 +50,14 @@
 
 .subMenu p {
     margin: 3px;
+    color: rgb(255, 149, 0);
 }
 
-.bb{
+.neg{
+    font-style: oblique;
+}
+
+.bb {
     margin-top: 5px;
     color: rgb(0, 0, 0);
     background-color: gold;
@@ -64,6 +68,7 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
 .butt {
     flex-direction: column;
     align-items: end;
@@ -73,7 +78,7 @@
     flex-direction: row;
 }
 
-.div-padre {
+.divCard {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -82,47 +87,57 @@
     margin: 0 auto;
 }
 
-.div-hijo {
+.card {
     text-align: center;
     margin: 25px;
+    margin-top: 100px;
     width: 200px;
     height: 250px;
-    background-color: grey;
+    background-color: rgb(255, 231, 75);
 }
 
-input, ul.submenu {
+input,
+ul.submenu {
     display: none;
-  }
-  
-  /*position the label*/
-  label {
+}
+
+
+label {
     position: relative;
     display: block;
     cursor: pointer;
-  }
-  
-  /*show the submenu when input is checked*/
-  input:checked~ul.submenu {
+}
+
+
+input:checked~ul.submenu {
     display: block;
-  }
+}
 
 a {
     text-decoration: none;
 }
 
-.columnMenu{
+.columnMenu {
     flex-direction: column;
 }
 
-.search-bar{
+.search-bar {
     display: block;
 }
-.cerca{
+
+.cerca {
     display: flex;
     align-items: center;
     gap: 3px;
 }
-.lupa{
+
+.lupa {
     width: 20px;
     height: 20px;
+}
+
+footer{
+    background-color: rgb(255, 168, 55);
+    height: 550px;
+    width: 100%;
 }
